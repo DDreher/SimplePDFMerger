@@ -1,0 +1,22 @@
+# Ignore all files by default, but scan all directories
+*
+!*/
+
+# Python files
+!*.py
+
+# Text files
+!*.txt
+!*.md
+
+# Specific names
+!README
+!LICENSE
+!.git*
+
+# Ignore PyCharm directory
+.idea/
+
+# Ignore virtual environemnt directory
+venv/
+.venv/
